@@ -87,7 +87,7 @@ function App() {
         </div>
       </div>
       <div>
-        {showSelected && <><h1><span style={{fontSize:"1.5rem"}}>You Selected</span> {city}, <span style={{color:"grey",fontSize:"1.5rem"}}>{state}, {country}</span></h1></>}
+        {showSelected && <h1><span style={{fontSize:"1.5rem"}}>You Selected</span> {city}, <span style={{color:"grey",fontSize:"1.5rem"}}>{state}, {country}</span></h1>}
       </div>
     </div>
   );
